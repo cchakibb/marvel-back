@@ -17,7 +17,7 @@ const ts = uid2(10);
 const hash = md5(ts + privateKey + publicKey);
 console.log("ts = ", ts);
 console.log("hash = ", hash);
-
+console.log("hash");
 server.get("/", async (req, res) => {
   const response = await axios.get(
     `https://gateway.marvel.com:443/v1/public/characters?limit=100&ts=${ts}&apikey=${publicKey}&hash=${hash}`
