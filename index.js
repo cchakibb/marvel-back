@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const server = express();
 const formidableMiddleware = require("express-formidable");
@@ -6,7 +7,7 @@ server.use(formidableMiddleware());
 const axios = require("axios");
 const cors = require("cors");
 server.use(cors());
-require("dotenv").config();
+
 const uid2 = require("uid2");
 const md5 = require("md5");
 

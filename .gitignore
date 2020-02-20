@@ -2,6 +2,3 @@ node_modules
 package-lock.json
 .DS_Store
 .env
-
-PUBLIC_KEY="4c1d1203f2b6160bf992f54aa85dec17"
-PRIVE_KEY="d829d2e4f5a50ca76e5d01bc12113c283df2f395"
